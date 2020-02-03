@@ -9,7 +9,8 @@ Some notes (tips/tricks) gathered by me during time related to web pentesting, b
 02) You can use Firefox Browser Developer Edition and apply all settings below.
 ![](/ff-de.png)
 
-## Firefox params for a more "silent" browser
+### Firefox params for a more "silent" browser
+![](/ff-about.png)
 
 **Allow Weak SSL Ciphers and Protocols:** ```security.tls.version.min = 0```  
 
