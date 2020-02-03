@@ -56,3 +56,6 @@ Some notes (tips/tricks) gathered by me during time related to web pentesting, b
 
 Target > Sitemap > Filters > "show all"
 ![](/burp-sitemap-filter.png)
+
+
+Change Burp Suite Decoder to a local instance of Cyber Chef (https://gchq.github.io/CyberChef/)
