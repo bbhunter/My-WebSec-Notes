@@ -19,7 +19,7 @@ Some notes (tips/tricks) gathered by me during time related to web pentesting, b
 
 **Disable Captive Web Portal Tester:** ```network.captive-portal-service```  
 
-**Disable Automaticakky Googling and Suggesting:** ```browser.urlbar.autocomplete.enabled```  
+**Disable Automaticakky Googling and Suggesting:** ```browser.urlbar.autocomplete.enabled```  or  ```browser.urlbar.autoFill```
 
 **Disable Telemetry:** ```toolkit.telemetry.enabled```  
 
