@@ -60,3 +60,11 @@ Target > Sitemap > Filters > "show all"
 
 
 Change Burp Suite Decoder to a local instance of Cyber Chef (https://gchq.github.io/CyberChef/)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+# Domain/Subdomain  
+1. Amass  
+1.1 Passive: ```amass enum -config config.ini -passive -d **<target.com>** -o amass-enum-passive-<target.com>.txt -max-dns-queries 2000```  
+1.2 Active: ```amass enum -config config.ini -active -d **<target.com>** -p 22,80,443,8080 -o amass-enum-active-<target.com>.txt -max-dns-queries 2000```
