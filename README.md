@@ -2,7 +2,7 @@
 Some notes (tips/tricks) gathered by me during time related to web pentesting, bug bounty and browser/tools stuff.  
 * P.S.: respectfully cannibalyzed notes from a lot of places: SANS, blog posts... Thank y'all.
 
-# Mozilla Firefox Browser
+## Mozilla Firefox Browser
 01) You can use the default Firefox Browser and apply all settings below it will work  same as Firefox Developer Browser.
 ![](/ff-be.png)
 
