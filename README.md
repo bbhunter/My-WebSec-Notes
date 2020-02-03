@@ -4,6 +4,8 @@ Some notes (tips/tricks) gathered by me during time related to web pentesting, b
 
 # Mozilla Firefox Browser
 01) You can use the default Firefox Browser and apply all settings below it will work  same as Firefox Developer Browser.
+![](/ff-be.png)
+
 02) You can use Firefox Browser Developer Edition and apply all settings below.
 ![](/ff-de.png)
 
