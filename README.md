@@ -23,6 +23,7 @@ Some notes (tips/tricks) gathered by me during time related to web pentesting, b
 	```browser.safebrowsing.downloads.remote.enabled```  
 	```browser.safebrowsing.malware.enabled```  
 	```browser.safebrowsing.phishing.enabled```  
+
 **More Telemetry:**  
 	```browser.newtabpage.activity-stream.feeds.telemetry```  
 	```browser.newtabpage.activity-stream.telemetry```  
