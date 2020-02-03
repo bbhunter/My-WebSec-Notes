@@ -23,7 +23,7 @@ Some notes (tips/tricks) gathered by me during time related to web pentesting, b
 
 **Disable Telemetry:** ```toolkit.telemetry.enabled```  
 
-**Disable OSCP Stapling:** ```security.ssl.error reporting.enabled = disable```  
+**Disable OSCP Stapling:** ```security.ssl.errorReporting.enabled = disable```  
 
 **Disable Normandy:** ```app.normandy.enabled = false```  
 
