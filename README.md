@@ -48,3 +48,11 @@ Some notes (tips/tricks) gathered by me during time related to web pentesting, b
 	```privacy.trackingprotection.pbmode.enabled```  
 	```toolkit.telemetry.archive.enabled```  
 	```toolkit.telemetry.enabled```  
+
+
+
+
+# Burp Suite Community/Pro
+
+Target > Sitemap > Filters > "show all"
+![](/burp-sitemap-filter.png)
