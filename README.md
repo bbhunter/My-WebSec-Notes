@@ -6,6 +6,7 @@ Some notes (tips/tricks) gathered by me during time related to web pentesting, b
 01) You can use the default Firefox Browser and apply all settings below it will work  same as Firefox Developer Browser.
 02) You can use Firefox Browser Developer Edition and apply all settings below.
 
+
 ## Firefox params for a more "silent" browser
 **Allow Weak SSL Ciphers and Protocols:** ```security.tls.version.min = 0```
 
