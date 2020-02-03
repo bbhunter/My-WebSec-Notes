@@ -1,5 +1,5 @@
 # My-WebSec-Notes
-Some notes (tips/tricks) gathered by me during time related to web pentesting, bug bounty and browser/tools stuff.
+Some notes (tips/tricks) gathered by me during time related to web pentesting, bug bounty and browser/tools stuff.  
 P.S.: respectfully cannibalyzed notes from a lot of places: SANS, blog posts... Thank y'all.
 
 # Mozilla Firefox Browser
