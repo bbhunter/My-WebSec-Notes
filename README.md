@@ -65,6 +65,8 @@ Change Burp Suite Decoder to a local instance of Cyber Chef (https://gchq.github
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 # Domain/Subdomain  
-1. Amass  
-1.1 Passive: ```amass enum -config config.ini -passive -d **<target.com>** -o amass-enum-passive-<target.com>.txt -max-dns-queries 2000```  
-1.2 Active: ```amass enum -config config.ini -active -d **<target.com>** -p 22,80,443,8080 -o amass-enum-active-<target.com>.txt -max-dns-queries 2000```
+1. Amass **Passive** **Active** **Brute** (remember that your config.ini must be configured with API keys)
+1.1 Passive: ```amass enum -config config.ini -passive -d <target.com> -o amass-enum-passive-<target.com>.txt -max-dns-queries 2000```  
+1.2 Active: ```amass enum -config config.ini -active -d <target.com> -p 22,80,443,8080 -o amass-enum-active-<target.com>.txt -max-dns-queries 2000```
+1.3 Brute: ```amass enum -config config.ini -brute -d <target.com> -min-for-recursive 4 -o amass-enum-brute-<target.com>.txt -max-dns-queries 2000 -w (/jhaddix/all.txt|/seclists/Discovery/DNS/shubs-subdomains.txt)```
+**TODO** 1.4 Resolvers: include a comprehensive list of DNS resolvers to force find other domains
