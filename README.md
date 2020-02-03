@@ -7,7 +7,7 @@ P.S.: respectfully cannibalyzed notes from a lot of places: SANS, blog posts... 
 02) You can use Firefox Browser Developer Edition and apply all settings below.
 
 ## Firefox params for a more "silent" browser
-**Allow Weak SSL Ciphers and Protocols:** security.tls.version.min = 0
+**Allow Weak SSL Ciphers and Protocols:** ```security.tls.version.min = 0```
 
 **Allow Mixed Content:** ```security.mixed_content.block_active_content = disable```
 
@@ -27,36 +27,36 @@ P.S.: respectfully cannibalyzed notes from a lot of places: SANS, blog posts... 
 
 **Disable Safebrowsing Features:**
 	
-	```browser.safebrowsing.blockedURIs.enabled```
+	browser.safebrowsing.blockedURIs.enabled
+
+	browser.safebrowsing.downloads.enabled
 	
-	```browser.safebrowsing.downloads.enabled```
+	browser.safebrowsing.downloads.remote.enabled
 	
-	```browser.safebrowsing.downloads.remote.enabled```
+	browser.safebrowsing.malware.enabled
 	
-	```browser.safebrowsing.malware.enabled```
-	
-	```browser.safebrowsing.phishing.enabled```
+	browser.safebrowsing.phishing.enabled
 
 **More Telemetry:**
 	
-	```browser.newtabpage.activity-stream.feeds.telemetry```
+	browser.newtabpage.activity-stream.feeds.telemetry
 	
-	```browser.newtabpage.activity-stream.telemetry```
+	browser.newtabpage.activity-stream.telemetry
 	
-	```browser.ping-centre.telemetry```
+	browser.ping-centre.telemetry
 	
-	```browser.safebrowsing.blockedURIs.enabled```
+	browser.safebrowsing.blockedURIs.enabled
 	
-	```datareporting.healthreport.uploadEnabled```
+	datareporting.healthreport.uploadEnabled
 	
-	```plugins.flashBlock.enabled```
+	plugins.flashBlock.enabled
 	
-	```privacy.trackingprotection.annotate_channels```
+	privacy.trackingprotection.annotate_channels
 	
-	```privacy.trackingprotection.enabled```
+	privacy.trackingprotection.enabled
 	
-	```privacy.trackingprotection.pbmode.enabled```
+	privacy.trackingprotection.pbmode.enabled
 	
-	```toolkit.telemetry.archive.enabled```
+	toolkit.telemetry.archive.enabled
 	
-	```toolkit.telemetry.enabled```
+	toolkit.telemetry.enabled
