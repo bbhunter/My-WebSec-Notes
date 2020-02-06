@@ -78,6 +78,22 @@ Linkfinder
 
 httprobe  
 
+Gobuster  
+1. ./gobuster dir -e -u **TARGET** -w **WORDLIST** -v -r -a **'SOME-RANDOM-SHIT/USERAGENT'** -t 20 -l -k -x **"SOME-.EXTENSION"** -f -o **TARGET-OUTPUT.txt** 
+* -e: expanded mode,  show full URLs  
+* -u: target URL, only used in DIR mode  
+* -w: path to your wordlist  
+* -v: verbose (always be verbose)  
+* -r: follow redirects  
+* -a: change tour user-agent to some default or random keyword  
+* -t: threads (default is 10)  
+* -l: lenght of the body  
+* -k: skip SSL verification (OPTIONAL)  
+* -x: append the extension (.php, asp, etc) to each request in the wordlist **TIP: first detect what technology the target is using, which language or languages are in use, only then you choose the right extension.**  
+* -f: append a forward slash (/) to each request (OPTIONAL)
+* -o: tool/results output
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 # Fingerprint/Technology Detection  
