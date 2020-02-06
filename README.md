@@ -78,7 +78,7 @@ Linkfinder
 
 httprobe  
 
-Gobuster  
+[Gobuster] (https://github.com/OJ/gobuster)
 1. ./gobuster dir -e -u **TARGET** -w **WORDLIST** -v -r -a **'SOME-RANDOM-SHIT/USERAGENT'** -t 20 -l -k -x **"SOME-.EXTENSION"** -f -o **TARGET-OUTPUT.txt**  
 ```-e: expanded mode,  show full URLs```  
 ```-u: target URL, only used in DIR mode```  
