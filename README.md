@@ -89,7 +89,7 @@ Gobuster
 ```-t: threads (default is 10)```  
 ```-l: lenght of the body```  
 ```-k: skip SSL verification (OPTIONAL)```  
-```-x: append the extension (.php, asp, etc) to each request in the wordlist TIP: first detect what technology the target is using, which language or languages are in use, only then you choose the right extension.```   
+```-x: append the extension (.php, asp, etc) to each request in the wordlist | TIP: first detect what technology the target is using, which language or languages are in use, only then you choose the right extension.```   
 ```-f: append a forward slash (/) to each request (OPTIONAL)```  
 ```-o: tool/results output```  
 
